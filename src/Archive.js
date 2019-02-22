@@ -63,16 +63,20 @@ class ArchiveTableRow extends Component {
         return (
             <tr>
                 <td width="25%">
-        		    <i className="fa fa-user-circle"></i> <a href="#edit" onClick={this.handleEdit}>{this.props.item.name}</a>
+        		    <a href="#edit" onClick={this.handleEdit}>{this.props.item.name}</a>
                 </td>
-                <td width="25%">
+                <td width="15%">
         		    {this.props.item.dateOfSent}
                 </td>
-                <td width="35%">
-        		    <i className="fa fa-shopping-bag"></i> <a href="#edit" onClick={this.handleEdit}>{this.props.item.item}</a>
+                <td width="30%">
+        		    <a href="#edit" onClick={this.handleEdit}>{this.props.item.item}</a>
                 </td>
-                <td width="25%">
+                <td width="15%">
                     <PriceTag amount={this.props.item.amount} type={this.props.item.isPaid ? "paid" : "unpaid"}/>
+                </td>
+                <td width="15%">
+        		    {parseInt(this.props.item.amount) + (this.props.item.actualPost == undefined ? 0 : 
+                        parseInt(this.props.item.actualPost))}
                 </td>
             </tr>
         );
@@ -141,6 +145,7 @@ class Archive extends Component {
                             <th>ODESLÁNÍ</th>
                             <th>VĚC</th>
                             <th>ČÁSTKA</th>
+                            <th>CELKEM</th>
                         </tr>
                     </thead>
                     <tbody>

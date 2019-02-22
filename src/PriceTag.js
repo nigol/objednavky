@@ -9,7 +9,7 @@ import './PriceTag.css';
 export function PriceTag(props) {
     return (
         <div className={"roundedPrice price " + props.type}>
-            <i className="fa fa-money"></i> {props.amount} Kč
+            {props.amount} Kč
         </div>
     );
 }
