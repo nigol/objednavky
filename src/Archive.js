@@ -66,7 +66,7 @@ class ArchiveTableRow extends Component {
         		    <a href="#edit" onClick={this.handleEdit}>{this.props.item.name}</a>
                 </td>
                 <td width="15%">
-        		    {this.props.item.dateOfSent}
+        		    {this.props.item.dateOfPay}
                 </td>
                 <td width="30%">
         		    <a href="#edit" onClick={this.handleEdit}>{this.props.item.item}</a>
@@ -142,7 +142,7 @@ class Archive extends Component {
                     <thead>
                         <tr>
                             <th>JMÉNO</th>
-                            <th>ODESLÁNÍ</th>
+                            <th>PLATBA</th>
                             <th>VĚC</th>
                             <th>ČÁSTKA</th>
                             <th>CELKEM</th>
