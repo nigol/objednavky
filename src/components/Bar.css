@@ -1,0 +1,17 @@
+.bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: PowderBlue;
+}
+
+.bar .yearLabel {
+    margin-right: 1em;
+    font-weight: bold;
+    color: Olive;
+}
+
+.bar .sum {
+    font-style: italic;
+}

@@ -1,0 +1,23 @@
+.archiveTable {
+    width: 100%;
+}
+
+.archiveTable thead {
+    font-size: 80%;
+}
+
+.archiveTable thead tr {
+    color: AliceBlue;
+    background-color: #666666;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.archiveTable tbody td {
+    background-color: AliceBlue;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+}

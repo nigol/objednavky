@@ -1,0 +1,30 @@
+.new {
+    background-color: MediumSeaGreen;
+}
+
+.default {
+    background-color: SteelBlue;
+}
+
+.normal {
+    background-color: Silver;
+}
+
+.danger {
+    background-color: FireBrick;
+}
+
+.button {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: Azure;
+}
+
+.buttonRounded {
+    border-radius: 3px;
+}
+
+.buttonWrapper a {
+    text-decoration: none;
+}

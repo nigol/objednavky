@@ -1,0 +1,17 @@
+.roundedPrice {
+    border-radius: 10px;
+}
+
+.price {
+    text-align: right;
+    padding: 4px;
+    color: Azure;
+}
+
+.unpaid {
+    background-color: IndianRed;
+}
+
+.paid {
+    background-color: SeaGreen;
+}

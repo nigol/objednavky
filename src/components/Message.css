@@ -1,0 +1,12 @@
+.message {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    background-color: Gold;
+}
